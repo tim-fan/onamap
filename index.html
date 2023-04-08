@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #336699;
+            background-color: #70A7FB;
             color: #fff;
             padding: 40px 20px;
             text-align: center;
@@ -47,6 +47,7 @@
             min-height: 80vh;
             text-align: center;
             box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f0faff;
         }
 
         img {
@@ -85,7 +86,7 @@
 
         .map_link {
             display: block;
-            background-color: #336699;
+            background-color: #70A7FB;
             color: #fff;
             padding: 14px 20px;
             border-radius: 5px;
@@ -131,6 +132,10 @@
                 padding: 10px 20px;
                 font-size: 18px;
             }
+
+            table {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
@@ -144,9 +149,11 @@
         <img src="man_on_map.png" alt="Person standing on a map">
         <h3>Available maps:</h3>
         <ul>
-            <li><a class="map_link" href="maps/Chippenham1773/index.html">Chippenham (1773)</a></li>
-            <li><a class="map_link" href="maps/Corsham/index.html">Corsham</a></li>
-            <li><a class="map_link" href="maps/Malmesbury/index.html">Malmesbury</a></li>
+            <li><a class="map_link" href="maps/Bath">Bath</a></li>
+            <li><a class="map_link" href="maps/CastleCombe">Castle Combe</a></li>
+            <li><a class="map_link" href="maps/Malmesbury">Malmesbury</a></li>
+            <li><a class="map_link" href="maps/Corsham">Corsham</a></li>
+            <li><a class="map_link" href="maps/Chippenham1773">Chippenham (1773)</a></li>
         </ul>
         <h4> What is it?</h4>
         <p>
@@ -158,23 +165,74 @@
             map directly! <br /><br />
             For now it only supports maps that I have set up, but it is envisaged that in future
             you could add your own map on the fly as needed (arrive in town, take photo of tourist map, upload here,
-            good to go!). <br />
+            good to go!). <br /><br />
             I've yet to setup a contact email, in the meantime I can be reached via <a
                 href="https://github.com/tim-fan/onamap/discussions">Github discussions</a>. Please reach out
             if you'd like to see a new map added!
 
-
-
         </p>
+
         <h4>Development Notes and TODO:</h4>
         <p>
-            * Map attribution <br />
             * Provide contact me email <br />
             * Map showing available maps </br>
             * User-provided maps </br>
             * Map UI improvements </br>
-            * formatting of this list <br />
+            * Formatting of this list <br />
         </p>
+
+        <h4> Map sources </h4>
+        <p>Where I got the maps from.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Map</th>
+                    <th>Date Accessed</th>
+                    <th>Source</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Corsham</td>
+                    <td>8/4/2023</td>
+                    <td><a
+                            href="https://www.corsham.gov.uk/wp-content/uploads/2021/11/corsham-map-a4-final.pdf">link</a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Bath</td>
+                    <td>8/4/2023</td>
+                    <td><a href="https://ontheworldmap.com/uk/city/bath/bath-tourist-map.jpg">link</a></a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Chippenham (1773)</td>
+                    <td>8/4/2023</td>
+                    <td><a href="https://commons.wikimedia.org/wiki/File:Chippenham1773.jpg">link</a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Malmesbury</td>
+                    <td>8/4/2023</td>
+                    <td><a href="https://www.malmesbury.gov.uk/images/tic/malmesbury-map-optimised-web.pdf">link</a>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>Castle Combe</td>
+                    <td>8/4/2023</td>
+                    <td><a
+                            href="https://sites.google.com/site/castlecombewiltshire/castle-combe-the-prettiest-village-in-england/castle-combe-map"><a
+                                href="https://sites.google.com/site/castlecombewiltshire/castle-combe-the-prettiest-village-in-england/castle-combe-map">link</a>
+                    </td>
+
+                </tr>
+            </tbody>
+        </table>
+        <br />
     </div>
 </body>
 
