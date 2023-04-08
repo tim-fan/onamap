@@ -34,6 +34,8 @@
             line-height: 1.4;
         }
 
+
+
         .container {
             max-width: 800px;
             margin: 0 auto;
@@ -60,6 +62,13 @@
             line-height: 1.4;
         }
 
+        h4 {
+            /* font-size: 28px; */
+            margin-top: 50px;
+            margin-bottom: 0px;
+            line-height: 1.4;
+        }
+
         ul {
             list-style: none;
             padding: 0;
@@ -73,7 +82,7 @@
             margin: 10px;
         }
 
-        a {
+        .map_link {
             display: block;
             background-color: #336699;
             color: #fff;
@@ -134,10 +143,37 @@
         <img src="man_on_map.png" alt="Person standing on a map">
         <h3>Available maps:</h3>
         <ul>
-            <li><a href="maps/Chippenham1773/index.html">Chippenham (1773)</a></li>
-            <li><a href="maps/Corsham/index.html">Corsham</a></li>
-            <li><a href="maps/Malmesbury/index.html">Malmesbury</a></li>
+            <li><a class="map_link" href="maps/Chippenham1773/index.html">Chippenham (1773)</a></li>
+            <li><a class="map_link" href="maps/Corsham/index.html">Corsham</a></li>
+            <li><a class="map_link" href="maps/Malmesbury/index.html">Malmesbury</a></li>
         </ul>
+        <h4> What is it?</h4>
+        <p>
+            OnAMap.me uses your device location to show your location on any given map
+            (see available maps above). <br /><br />
+            This was created to avoid the hassle of switching between looking at tourist maps (to see what's
+            interesting)
+            and Google maps (to see where I am) when visiting a new town. Now you can see your location on the tourist
+            map directly! <br /><br />
+            For now it only supports maps that I have set up, but it is envisaged that in future
+            you could add your own map on the fly as needed (arrive in town, take photo of tourist map, upload here,
+            good to go!). <br />
+            I've yet to setup a contact email, in the meantime I can be reached via <a
+                href="https://github.com/tim-fan/onamap/discussions">Github discussions</a>. Please reach out
+            if you'd like to see a new map added!
+
+
+
+        </p>
+        <h4>Development Notes and TODO:</h4>
+        <p>
+            * Map attribution <br />
+            * Provide contact me email <br />
+            * Map showing available maps </br>
+            * User-provided maps </br>
+            * Map UI improvements </br>
+            * formatting of this list <br />
+        </p>
     </div>
 </body>
 
