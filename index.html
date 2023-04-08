@@ -1,12 +1,143 @@
-<!doctype html><html><head><meta charset="utf-8"/><title>MeOnAMap</title><script src="./print.bundle.js"></script><style>body {
-            padding: 0;
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>On A Map: Me!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+            color: #444;
             margin: 0;
+            padding: 0;
         }
 
-        html,
-        body,
-        #map {
-            height: 100%;
-            width: 100vw;
-            background: rgb(59, 59, 59);
-        }</style><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/><script defer="defer" src="runtime.bundle.js"></script><script defer="defer" src="index.bundle.js"></script><script defer="defer" src="print.bundle.js"></script></head><body><script src="./index.bundle.js"></script><div id="map"></div></body></html>
+        header {
+            background-color: #336699;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            line-height: 1.2;
+        }
+
+        h2 {
+            font-size: 28px;
+            margin-top: 10px;
+            line-height: 1.4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 80vh;
+            text-align: center;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            margin-bottom: 40px;
+            border-radius: 50%;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h3 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            line-height: 1.4;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        a {
+            display: block;
+            background-color: #336699;
+            color: #fff;
+            padding: 14px 20px;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: #fff;
+            color: #336699;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 767px) {
+            header {
+                padding: 15px 20px;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            .container {
+                padding: 0px 20px;
+            }
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            h3 {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+
+            a {
+                padding: 10px 20px;
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>On a Map</h1>
+        <h2>You, on the map!</h2>
+    </header>
+    <div class="container">
+        <img src="man_on_map.png" alt="Person standing on a map">
+        <h3>Available maps:</h3>
+        <ul>
+            <li><a href="Chippenham1773/index.html">Chippenham (1773)</a></li>
+            <li><a href="Corsham/index.html">Corsham</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>
