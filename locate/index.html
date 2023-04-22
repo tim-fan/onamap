@@ -1,12 +1,134 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
+<html>
 
-<meta charset="UTF-8">
-<meta http-equiv="refresh" content="1; url=https://onamap.me/maps/Corsham/">
+<head>
+    <title>On A Map: Me!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            background-color: #f7f7f7;
+            font-family: Arial, sans-serif;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
 
-<script>
-    window.location.href = "https://onamap.me/maps/Corsham/"
-</script>
+        header {
+            background-color: #70A7FB;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
 
-<title>Page Redirection</title>
+        h1 {
+            font-size: 60px;
+            margin: 0;
+            line-height: 1.2;
+        }
 
-If you are not redirected automatically, follow the <a href='https://onamap.me/maps/Corsham/'>link to example</a>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 50px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 80vh;
+            text-align: center;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f0faff;
+        }
+
+        img {
+            max-width: 70%;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            border-radius: 50%;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        li {
+            margin: 10px;
+        }
+
+        .permission_button {
+            display: block;
+            background-color: #70A7FB;
+            color: #fff;
+            padding: 14px 20px;
+            border-radius: 5px;
+            transition: all 0.2s ease-in-out;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .permission_button:hover {
+            background-color: #fff;
+            color: #336699;
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 767px) {
+            header {
+                padding: 15px 20px;
+            }
+
+            h1 {
+                font-size: 48px;
+            }
+
+            .container {
+                padding: 0px 20px;
+            }
+
+            img {
+                margin-bottom: 20px;
+            }
+
+            .permission_button {
+                padding: 10px 20px;
+                font-size: 18px;
+            }
+
+            table {
+                font-size: 12px;
+            }
+        }
+    </style>
+    <meta property="og:image" content="https://onamap.me/man_on_map.png" />
+    <script src='https://unpkg.com/@turf/turf@6/turf.min.js'></script>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome</h1>
+    </header>
+    <div class="container">
+        <img src="../man_on_map.png" alt="Person standing on a map">
+        <p>This app will show your live location on the map as you explore the area.</p>
+        <p>You will need to allow location access:</p>
+        <ul>
+            <li>
+                <p class="permission_button" onclick="locationBasedRedirect()">Allow location
+                    access</p>
+            </li>
+        </ul>
+        <br />
+    </div>
+    <script src="location_check.js"></script>
+
+</body>
+
+</html>
