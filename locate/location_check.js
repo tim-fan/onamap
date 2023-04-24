@@ -45,6 +45,11 @@ function getClosestMap(position) {
             "longitude": -2.356641,
             "latitude": 51.381314,
         },
+        {
+            "name": "Woodhill",
+            "longitude": 174.417313,
+            "latitude": -36.739776,
+        },
     ]
 
     const turf_position = turf.point([
