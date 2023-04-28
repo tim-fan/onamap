@@ -50,7 +50,13 @@ function getClosestMap(position) {
             "longitude": 174.417313,
             "latitude": -36.739776,
         },
+        {
+            "name": "QueenstownGardens",
+            "longitude": 168.659394,
+            "latitude": -45.038173,
+        },
     ]
+
 
     const turf_position = turf.point([
         position.coords.longitude, position.coords.latitude
