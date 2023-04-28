@@ -55,8 +55,12 @@ function getClosestMap(position) {
             "longitude": 168.659394,
             "latitude": -45.038173,
         },
+        {
+            "name": "AirTattoo2018",
+            "longitude": -1.780300,
+            "latitude": 51.679255,
+        },
     ]
-
 
     const turf_position = turf.point([
         position.coords.longitude, position.coords.latitude
