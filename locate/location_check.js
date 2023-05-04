@@ -60,6 +60,11 @@ function getClosestMap(position) {
             "longitude": -1.780300,
             "latitude": 51.679255,
         },
+        {
+            "name": "KewGardens",
+            "longitude": -0.2957171446359524,
+            "latitude": 51.47750563954119,
+        },
     ]
 
     const turf_position = turf.point([
