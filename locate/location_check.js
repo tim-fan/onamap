@@ -65,6 +65,11 @@ function getClosestMap(position) {
             "longitude": -0.2957171446359524,
             "latitude": 51.47750563954119,
         },
+        {
+            "name": "AucklandZoo",
+            "longitude": 174.7174963,
+            "latitude": -36.864113,
+        },
     ]
 
     const turf_position = turf.point([
