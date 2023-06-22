@@ -84,6 +84,11 @@ function getClosestMap(position) {
             "name": "EdenProject", 
             "longitude": -4.7573804,
             "latitude": 50.3667136,
+        },
+        {
+            "name": "DiggerlandDevon", 
+            "longitude": -3.37899,
+            "latitude": 50.8776498,
         }, 
     ]
 
