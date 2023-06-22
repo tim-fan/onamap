@@ -79,6 +79,11 @@ function getClosestMap(position) {
             "name": "BealePark", 
             "longitude": -1.1093396,
             "latitude": 51.4969703,
+        },
+        {
+            "name": "EdenProject", 
+            "longitude": -4.7573804,
+            "latitude": 50.3667136,
         }, 
     ]
 
