@@ -75,6 +75,11 @@ function getClosestMap(position) {
             "longitude": -2.867963,
             "latitude": 51.362046,
         }, 
+        {
+            "name": "BealePark", 
+            "longitude": -1.1093396,
+            "latitude": 51.4969703,
+        }, 
     ]
 
     const turf_position = turf.point([
