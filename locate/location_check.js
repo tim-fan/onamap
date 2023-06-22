@@ -70,6 +70,11 @@ function getClosestMap(position) {
             "longitude": 174.7174963,
             "latitude": -36.864113,
         },
+        {
+            "name": "PuxtonPark", 
+            "longitude": -2.867963,
+            "latitude": 51.362046,
+        }, 
     ]
 
     const turf_position = turf.point([
