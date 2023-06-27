@@ -89,6 +89,11 @@ function getClosestMap(position) {
             "name": "DiggerlandDevon", 
             "longitude": -3.37899,
             "latitude": 50.8776498,
+        },
+        {
+            "name": "HullavingtonNatureTrail", 
+            "longitude": -2.151137,
+            "latitude": 51.528517,
         }, 
     ]
 
