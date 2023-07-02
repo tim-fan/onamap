@@ -100,6 +100,11 @@ function getClosestMap(position) {
             "longitude": -1.255878,
             "latitude": 51.750244,
         }, 
+        {
+            "name": "Bowood", 
+            "longitude": -2.037633,
+            "latitude": 51.428555,
+        }, 
     ]
 
     const turf_position = turf.point([
