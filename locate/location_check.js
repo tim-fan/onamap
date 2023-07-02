@@ -95,6 +95,11 @@ function getClosestMap(position) {
             "longitude": -2.151137,
             "latitude": 51.528517,
         }, 
+        {
+            "name": "Oxford1605", 
+            "longitude": -1.255878,
+            "latitude": 51.750244,
+        }, 
     ]
 
     const turf_position = turf.point([
