@@ -105,6 +105,11 @@ function getClosestMap(position) {
             "longitude": -2.037633,
             "latitude": 51.428555,
         }, 
+        {
+            "name": "CorfeCastle", 
+            "longitude": -2.059148,
+            "latitude": 50.640147,
+        }, 
     ]
 
     const turf_position = turf.point([
