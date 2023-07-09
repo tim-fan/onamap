@@ -115,6 +115,11 @@ function getClosestMap(position) {
             "longitude": 0.119077,
             "latitude": 52.205217,
         }, 
+        {
+            "name": "ChatuchakMarket", 
+            "longitude": 100.550978,
+            "latitude": 13.799503,
+        }, 
     ]
 
     const turf_position = turf.point([
