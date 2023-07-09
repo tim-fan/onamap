@@ -56,7 +56,7 @@ function getClosestMap(position) {
             "latitude": -45.038173,
         },
         {
-            "name": "AirTattoo2018",
+            "name": "AirTattoo2023",
             "longitude": -1.780300,
             "latitude": 51.679255,
         },
