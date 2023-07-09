@@ -110,6 +110,11 @@ function getClosestMap(position) {
             "longitude": -2.059148,
             "latitude": 50.640147,
         }, 
+        {
+            "name": "Cambridge1575", 
+            "longitude": 0.119077,
+            "latitude": 52.205217,
+        }, 
     ]
 
     const turf_position = turf.point([
