@@ -120,6 +120,11 @@ function getClosestMap(position) {
             "longitude": 100.550978,
             "latitude": 13.799503,
         }, 
+        {
+            "name": "OhopeCycleTrails", 
+            "longitude": 177.0778410894016,
+            "latitude": -37.99262196459595,
+        }, 
     ]
 
     const turf_position = turf.point([
