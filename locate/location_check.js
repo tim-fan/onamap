@@ -129,6 +129,11 @@ function getClosestMap(position) {
             "name": "BathSkyline", 
             "longitude": -2.334910,
             "latitude": 51.376907,
+        },
+        {
+            "name": "RedRoseCamp", 
+            "longitude": -2.72220276865230026,
+            "latitude": 54.24528950433738572,
         }, 
     ]
 
