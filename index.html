@@ -102,6 +102,35 @@
             box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
         }
 
+        .locate_section {
+        margin-bottom: 30px;
+    }
+
+    .locate_text {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .locate_link {
+        display: inline-block;
+        background-color: hsl(7, 68%, 69%);
+        color: #fff;
+        padding: 14px 20px;
+        border-radius: 5px;
+        transition: all 0.2s ease-in-out;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .locate_link:hover {
+        background-color: #fff;
+        color: hsl(7, 43%, 38%);
+        /* border: 2px solid #32CD32; */
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    }
+
         @media (max-width: 767px) {
             header {
                 padding: 15px 20px;
@@ -154,6 +183,11 @@
     <div class="container">
         <img src="man_on_map.png" alt="Person standing on a map">
         <h3>Where are you?</h3>
+        <div class="locate_section">
+            <div class="locate_text">Find closest map:</div>
+            <a class="locate_link" href="locate/">Locate Me</a>
+        </div>
+        <div class="locate_text">Or select location:</div>
         <ul>
             <li><a class="map_link" href="maps/Bath">Bath</a></li>
             <li><a class="map_link" href="maps/CastleCombe">Castle Combe</a></li>
@@ -197,16 +231,17 @@
             I'd love to hear your feedback, or requests for new maps. Email me at <a
                 href="mailto: 	enquiries@onamap.me"> enquiries@onamap.me</a>
             </br></br>
-            Alternatively <a href="https://www.facebook.com/me.onamap">find me on facebook</a>. 
+            Alternatively <a href="https://www.facebook.com/me.onamap">find me on facebook</a>.
 
         </p>
 
         <h4>Privacy</h4>
         <p>
-            This site does not collect or store your location data. For more information, see the <a href="./privacypolicy/index.html">
+            This site does not collect or store your location data. For more information, see the <a
+                href="./privacypolicy/index.html">
                 privacy policy</a>.
         </p>
-        
+
         <h4>Development Notes and TODO:</h4>
         <p>
             * Map showing available maps </br>
@@ -339,7 +374,8 @@
                 <tr>
                     <td>The Eden Project</td>
                     <td>22/6/2023</td>
-                    <td><a href="https://www.edenproject.com/sites/default/files/2022-07/Ticketing%20-%201190x840.jpg">link</a>
+                    <td><a
+                            href="https://www.edenproject.com/sites/default/files/2022-07/Ticketing%20-%201190x840.jpg">link</a>
                     </td>
                     <td>Pending</td>
                 </tr>
@@ -353,35 +389,40 @@
                 <tr>
                     <td>Oxford (1605)</td>
                     <td>2/7/2023</td>
-                    <td><a href="https://commons.wikimedia.org/wiki/File:John_Speed%27s_map_of_Oxford,_1605..jpg">link</a>
+                    <td><a
+                            href="https://commons.wikimedia.org/wiki/File:John_Speed%27s_map_of_Oxford,_1605..jpg">link</a>
                     </td>
                     <td>Public Domain</td>
                 </tr>
                 <tr>
                     <td>Corfe Castle</td>
                     <td>4/7/2023</td>
-                    <td><a href="https://www.facebook.com/NTCorfeCastle/photos/pb.100064805345804.-2207520000./4773397236086491/">link</a>
+                    <td><a
+                            href="https://www.facebook.com/NTCorfeCastle/photos/pb.100064805345804.-2207520000./4773397236086491/">link</a>
                     </td>
                     <td>Pending</td>
                 </tr>
                 <tr>
                     <td>Cambridge 1575 (Braun & Hogenberg)</td>
                     <td>9/7/2023</td>
-                    <td><a href="https://preview.redd.it/8vxdg6hn20za1.jpg?width=1748&format=pjpg&auto=webp&v=enabled&s=b8c878e924a575a8bd8db2a4427929ae7580acd4">link</a>
+                    <td><a
+                            href="https://preview.redd.it/8vxdg6hn20za1.jpg?width=1748&format=pjpg&auto=webp&v=enabled&s=b8c878e924a575a8bd8db2a4427929ae7580acd4">link</a>
                     </td>
                     <td>Pending</td>
                 </tr>
                 <tr>
                     <td>Chatuchak Weekend Market</td>
                     <td>9/7/2023</td>
-                    <td><a href="https://preparetravelplans.com/wp-content/uploads/2019/10/Chatuchak-Weekend-Market-Map.jpg">link</a>
+                    <td><a
+                            href="https://preparetravelplans.com/wp-content/uploads/2019/10/Chatuchak-Weekend-Market-Map.jpg">link</a>
                     </td>
                     <td>Pending</td>
                 </tr>
                 <tr>
                     <td>Ohope Cycle Trails</td>
                     <td>28/7/2023</td>
-                    <td><a href="https://www.ohopebeach.info/sites/www.ohopebeach.info/files/pics/ohope_cycle_trails_map_large.jpg">link</a>
+                    <td><a
+                            href="https://www.ohopebeach.info/sites/www.ohopebeach.info/files/pics/ohope_cycle_trails_map_large.jpg">link</a>
                     </td>
                     <td>Pending</td>
                 </tr>
