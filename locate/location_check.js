@@ -134,9 +134,13 @@ function getClosestMap(position) {
             "name": "RedRoseCamp", 
             "longitude": -2.72220276865230026,
             "latitude": 54.24528950433738572,
+        },
+        {
+            "name": "London1561", 
+            "longitude": -0.097726,
+            "latitude": 51.513362,
         }, 
     ]
-
     const turf_position = turf.point([
         position.coords.longitude, position.coords.latitude
     ])
