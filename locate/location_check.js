@@ -140,6 +140,11 @@ function getClosestMap(position) {
             "longitude": -0.097726,
             "latitude": 51.513362,
         }, 
+        {
+            "name": "Avalon", 
+            "longitude": -8.570899,
+            "latitude": 115.258633,
+        }, 
     ]
     const turf_position = turf.point([
         position.coords.longitude, position.coords.latitude
