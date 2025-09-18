@@ -145,6 +145,11 @@ function getClosestMap(position) {
             "longitude": -8.570899,
             "latitude": 115.258633,
         }, 
+        {
+            "name": "SanDiegoZoo",
+            "longitude": -117.1497,
+            "latitude": 32.7353,
+        },
     ]
     const turf_position = turf.point([
         position.coords.longitude, position.coords.latitude
