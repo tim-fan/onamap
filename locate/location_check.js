@@ -150,6 +150,11 @@ function getClosestMap(position) {
             "longitude": -117.1497,
             "latitude": 32.7353,
         },
+        {
+            "name": "RuapekapekaPa",
+            "longitude": 174.14,
+            "latitude": -35.46,
+        },
     ]
     const turf_position = turf.point([
         position.coords.longitude, position.coords.latitude
